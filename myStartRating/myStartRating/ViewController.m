@@ -17,9 +17,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self initpageView];
+}
+
+-(void)initpageView
+{
+    // 反馈产品
+    
+    //评价
     [self initStarsViewWithFrame:CGRectMake(20, 100, 200, 30) andTag:1];
     [self initStarsViewWithFrame:CGRectMake(20, 140, 200, 30) andTag:2];
     [self initStarsViewWithFrame:CGRectMake(20, 180, 200, 30) andTag:3];
+    //反馈的问题
+    
+    //上传截图
+    
 }
 
 -(void)initStarsViewWithFrame: (CGRect)frme  andTag:(int) tag
