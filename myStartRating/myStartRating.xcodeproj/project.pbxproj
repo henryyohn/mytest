@@ -16,6 +16,10 @@
 		04071DD6230AA69B00FB70CD /* CWStarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04071DD4230AA69B00FB70CD /* CWStarRateView.m */; };
 		04071DD9230AA6AD00FB70CD /* b27_icon_star_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04071DD7230AA6AD00FB70CD /* b27_icon_star_yellow@2x.png */; };
 		04071DDA230AA6AD00FB70CD /* b27_icon_star_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04071DD8230AA6AD00FB70CD /* b27_icon_star_gray@2x.png */; };
+		9E03EE39A1C417C83CA98F0B /* libPods-myStartRating.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C852E048C05AE9DB2FA512F /* libPods-myStartRating.a */; };
+		BA2F51FF2369073000F63F5C /* NXFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2F51FD2369073000F63F5C /* NXFileTool.m */; };
+		BA2F52032369081600F63F5C /* NXRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2F52022369081600F63F5C /* NXRequest.m */; };
+		BA9AD92B230B6BFE00A05213 /* ChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9AD92A230B6BFE00A05213 /* ChooseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,21 @@
 		04071DD5230AA69B00FB70CD /* CWStarRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWStarRateView.h; sourceTree = "<group>"; };
 		04071DD7230AA6AD00FB70CD /* b27_icon_star_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b27_icon_star_yellow@2x.png"; sourceTree = "<group>"; };
 		04071DD8230AA6AD00FB70CD /* b27_icon_star_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b27_icon_star_gray@2x.png"; sourceTree = "<group>"; };
+		0799F62F0C2F796843885980 /* Pods-myStartRating.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myStartRating.debug.xcconfig"; path = "Target Support Files/Pods-myStartRating/Pods-myStartRating.debug.xcconfig"; sourceTree = "<group>"; };
+		5C852E048C05AE9DB2FA512F /* libPods-myStartRating.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myStartRating.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		681AC8C21763894E96C5B521 /* Pods-myStartRating.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myStartRating.release.xcconfig"; path = "Target Support Files/Pods-myStartRating/Pods-myStartRating.release.xcconfig"; sourceTree = "<group>"; };
+		BA2F51FD2369073000F63F5C /* NXFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXFileTool.m; sourceTree = "<group>"; };
+		BA2F51FE2369073000F63F5C /* NXFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXFileTool.h; sourceTree = "<group>"; };
+		BA2F52012369081600F63F5C /* NXRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXRequest.h; sourceTree = "<group>"; };
+		BA2F52022369081600F63F5C /* NXRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXRequest.m; sourceTree = "<group>"; };
+		BA2F520423693E5A00F63F5C /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		BA2F520623693E8400F63F5C /* libbz2.1.0.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.5.tbd; path = usr/lib/libbz2.1.0.5.tbd; sourceTree = SDKROOT; };
+		BA2F520723693ED800F63F5C /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		BA2F520823693EDF00F63F5C /* libiconv.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = usr/lib/libiconv.2.tbd; sourceTree = SDKROOT; };
+		BA2F520923693EE500F63F5C /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		BA2F520A23693F1100F63F5C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BA9AD929230B6BFE00A05213 /* ChooseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ChooseView.h; path = myStartRating/chooseView/ChooseView.h; sourceTree = SOURCE_ROOT; };
+		BA9AD92A230B6BFE00A05213 /* ChooseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ChooseView.m; path = myStartRating/chooseView/ChooseView.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E03EE39A1C417C83CA98F0B /* libPods-myStartRating.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +71,8 @@
 			children = (
 				04071DBC230AA5F700FB70CD /* myStartRating */,
 				04071DBB230AA5F700FB70CD /* Products */,
+				0B4F22D19C058FD0AC13A44D /* Pods */,
+				6EFD77808323BC6CFF9F486F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +87,9 @@
 		04071DBC230AA5F700FB70CD /* myStartRating */ = {
 			isa = PBXGroup;
 			children = (
+				BA2F52002369080A00F63F5C /* network */,
+				BA2F51FC2369072000F63F5C /* tool */,
+				BA9AD928230B6B9E00A05213 /* chooseView */,
 				04071DD3230AA68100FB70CD /* startRatingView */,
 				04071DBD230AA5F700FB70CD /* AppDelegate.h */,
 				04071DBE230AA5F700FB70CD /* AppDelegate.m */,
@@ -90,6 +115,56 @@
 			path = startRatingView;
 			sourceTree = "<group>";
 		};
+		0B4F22D19C058FD0AC13A44D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0799F62F0C2F796843885980 /* Pods-myStartRating.debug.xcconfig */,
+				681AC8C21763894E96C5B521 /* Pods-myStartRating.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6EFD77808323BC6CFF9F486F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F520A23693F1100F63F5C /* Security.framework */,
+				BA2F520923693EE500F63F5C /* libiconv.tbd */,
+				BA2F520823693EDF00F63F5C /* libiconv.2.tbd */,
+				BA2F520723693ED800F63F5C /* libiconv.2.4.0.tbd */,
+				BA2F520623693E8400F63F5C /* libbz2.1.0.5.tbd */,
+				BA2F520423693E5A00F63F5C /* libz.1.1.3.tbd */,
+				5C852E048C05AE9DB2FA512F /* libPods-myStartRating.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA2F51FC2369072000F63F5C /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F51FE2369073000F63F5C /* NXFileTool.h */,
+				BA2F51FD2369073000F63F5C /* NXFileTool.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		BA2F52002369080A00F63F5C /* network */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F52012369081600F63F5C /* NXRequest.h */,
+				BA2F52022369081600F63F5C /* NXRequest.m */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		BA9AD928230B6B9E00A05213 /* chooseView */ = {
+			isa = PBXGroup;
+			children = (
+				BA9AD929230B6BFE00A05213 /* ChooseView.h */,
+				BA9AD92A230B6BFE00A05213 /* ChooseView.m */,
+			);
+			path = chooseView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04071DD0230AA5F900FB70CD /* Build configuration list for PBXNativeTarget "myStartRating" */;
 			buildPhases = (
+				573A7402F332B707B015A056 /* [CP] Check Pods Manifest.lock */,
 				04071DB6230AA5F700FB70CD /* Sources */,
 				04071DB7230AA5F700FB70CD /* Frameworks */,
 				04071DB8230AA5F700FB70CD /* Resources */,
+				8C8E0B3536EEB11E53E95E0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,15 +234,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		573A7402F332B707B015A056 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myStartRating-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C8E0B3536EEB11E53E95E0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myStartRating/Pods-myStartRating-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/JTToast/JTToast.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JTToast.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myStartRating/Pods-myStartRating-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04071DB6230AA5F700FB70CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				04071DC2230AA5F700FB70CD /* ViewController.m in Sources */,
+				BA9AD92B230B6BFE00A05213 /* ChooseView.m in Sources */,
 				04071DCD230AA5F900FB70CD /* main.m in Sources */,
+				BA2F51FF2369073000F63F5C /* NXFileTool.m in Sources */,
 				04071DD6230AA69B00FB70CD /* CWStarRateView.m in Sources */,
 				04071DBF230AA5F700FB70CD /* AppDelegate.m in Sources */,
+				BA2F52032369081600F63F5C /* NXRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,34 +432,42 @@
 		};
 		04071DD1230AA5F900FB70CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0799F62F0C2F796843885980 /* Pods-myStartRating.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BCSDJBNU67;
+				DEVELOPMENT_TEAM = 7VS2RJR2CZ;
 				INFOPLIST_FILE = myStartRating/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.marketingdepartA.myStartRating;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nxworldCE02.marketingdepartA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		04071DD2230AA5F900FB70CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 681AC8C21763894E96C5B521 /* Pods-myStartRating.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BCSDJBNU67;
+				DEVELOPMENT_TEAM = 7VS2RJR2CZ;
 				INFOPLIST_FILE = myStartRating/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.marketingdepartA.myStartRating;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nxworldCE02.marketingdepartA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
